@@ -13,6 +13,12 @@ Just pass in a `template` parameter when generating a new Rails application. For
 $ rails new my_application --template=https://raw.githubusercontent.com/liquid/rails-template/master/template.rb
 ```
 
+If you want to make this your default, you can add this into your `.railsrc` file in your `$HOME`:
+
+```
+--template=https://raw.githubusercontent.com/liquid/rails-template/master/template.rb
+```
+
 ## What does it do?
 
 * It adds the following gems in `development` and `test`:
