@@ -1,4 +1,5 @@
-# template.rb
+# Use this template when generating new Rails apps as follows:
+# rails new my_application --template=https://raw.githubusercontent.com/liquid/rails-template/master/template.rb
 
 gem_group :development, :test do
   gem 'rspec-rails', '~> 3.0'
