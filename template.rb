@@ -34,6 +34,8 @@ run "bundle install"
 generate 'rspec:install'
 generate 'annotate:install'
 
+run 'guard init rspec livereload'
+
 after_bundle do
   git :init
   git add: "."
