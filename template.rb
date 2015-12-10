@@ -32,6 +32,7 @@ environment generator_config
 run "bundle install"
 
 generate 'rspec:install'
+generate 'annotate:install'
 
 after_bundle do
   git :init
